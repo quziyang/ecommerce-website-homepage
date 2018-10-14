@@ -1,2 +1,2 @@
 # ecommerce-website-homepage
-基于原生 js 的电商网站首页 Web 页面
+使用 HTML、CSS、原生 JavaScript 实现的电商网站首页的 Web 页面。

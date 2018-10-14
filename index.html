@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页-电商项目</title>
+		<meta charset='utf-8' />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/commons.css" />
+		<link rel="stylesheet" type="text/css" href="css/widget.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/page/index.css" />
+	</head>
+	<body>
+		<!-- 网页头 start -->
+		<div id="headerId" class="header">
+			<label></label>
+			<div class="headTopNav" >
+				<i>四川</i>
+				<!-- <ul>
+					<li>你好，请登录</li>
+					<li>免费注册</li>
+					<em class="icon_1 mt_10"></em>
+					<li>我的订单<i class="arrowIcon"></i></li>
+					<em class="icon_1 mt_10"></em>
+					<li>我的京东</li>
+					<em class="icon_1 mt_10"></em>
+					<li>企业采购<i class="arrowIcon"></i></li>
+					<em class="icon_1 mt_10"></em>
+					<li>客户服务<i class="arrowIcon"></i></li>
+				</ul> -->
+				<ul id="headTopNavId"></ul>
+			</div>
+			
+			<div class="headSearchWrap">
+				<input type="text" class="headSearchKey" value="" id="headSearchKeyId"/>
+				<input type="button" class="headerSearchBtn" />
+				<div class="myPayNum">我的购物车<b class="payNum">0</b></div>
+			</div>
+
+			<div class="columnNav">
+				<ul id="columnNavId"></ul>
+				<!-- <ul>
+					<li>秒杀</li>
+					<li>优惠券</li>
+					<li>闪购</li>
+					<em class="icon_1 mt_5"></em>
+					<li>京东超市<i class="iconHot right_13- top_12-"></i></li>
+					<li>拍卖</li>
+					<li>秒杀</li>
+					<em class="icon_1 mt_5"></em>
+					<li>优惠券券</li>
+					<li>闪购</li>
+					<em class="icon_1 mt_5"></em>
+					<li>拍卖</li>
+				</ul> -->
+			</div>
+		</div>
+		<!-- 网页头 end -->
+
+		<!-- menu导航 start -->
+		<div id="menuId" class="menuWrap">
+			<div class="leftSubNav">
+				<ul id="leftSubNavId"></ul>
+				<!-- <ul>
+					<li>
+						<p>家电</p>
+						<div class="popupMenu">家电的弹出菜单</div>
+					</li>
+					<li>
+						<p>手机</p>
+						<div class="popupMenu">手机的弹出菜单</div>
+					</li>
+					<li>
+						<p>电脑</p>
+						<div class="popupMenu">电脑的弹出菜单</div>
+					</li>
+				</ul> -->
+			</div>
+
+			<!-- 轮播图 start -->
+			<div class="sliderWrap">
+				<label id="leftBtnId"><</label>
+				<ul id="ulWrapId">
+				</ul>
+				<span id="rightBtnId">></span>
+				<div class="pointerWrap" id="pointerWrapId">
+					<ul id="pointerUlId">
+						<!-- <li></li>
+						<li></li>
+						<li></li>
+						<li class="red"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li> -->
+					</ul>
+				</div>
+				<div class="pointerWrapBg" id="pointerWrapBgId"></div>
+			</div>
+			<!-- 轮播图 end -->
+
+			<div class="ads_wrap">
+				<ul>
+					<li class="fl"><img src="image/temp/ad_img_1.jpg"></li>
+					<li class="fr"><img src="image/temp/ad_img_2.jpg"></li>
+				</ul>
+			</div>
+		</div>
+		<!-- menu导航 end -->
+
+		<!-- 商品列表 -->
+		<!-- 这个是float排列的，可以多行 -->
+		<div id="goodsListId" class="goodsListWrap">
+			<div class="goodsListTitle">
+				<h1>享受好品质</h1>
+			</div>
+			<div class="goodsList cle">
+				<div class="goodsBlock mr_10 bg_1">
+					<dl class="bgColor_1">
+						<dt>京东超市</dt>
+						<dd>天天打折，特别便宜，随便买</dd>
+					</dl>
+				</div>
+
+				<div class="goodsBlock mr_10 bg_2">
+					<dl class="bgColor_2">
+						<dt>京东超市</dt>
+						<dd>天天打折，特别便宜，随便买</dd>
+					</dl>
+				</div>
+
+				<div class="goodsBlock bg_3">
+					<dl class="bgColor_3">
+						<dt>京东超市</dt>
+						<dd>天天打折，特别便宜，随便买</dd>
+					</dl>
+				</div>
+				<div class="goodsBlock mr_10 bg_2">
+					<dl class="bgColor_2">
+						<dt>京东超市</dt>
+						<dd>天天打折，特别便宜，随便买</dd>
+					</dl>
+				</div>
+
+				<div class="goodsBlock bg_3">
+					<dl class="bgColor_3">
+						<dt>京东超市</dt>
+						<dd>天天打折，特别便宜，随便买</dd>
+					</dl>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- 这个是绝对定位的排列的，目前css编写，只能单行 -->
+		<div id="goodsListId" class="goodsListWrap">
+			<div class="goodsListTitle">
+				<h1>享受好生活</h1>
+			</div>
+			<div class="goodsList" style="height:200px;">
+				<div class="goodsBlock2 bg_3 g_left_1"></div>
+				<div class="goodsBlock2 bg_3 g_left_2"></div>
+				<div class="goodsBlock2 bg_3 g_left_3"></div>
+			</div>
+		</div>
+
+		<br/><br/><br/><br/><br/>
+	</body>
+</html>
+
+<script type="text/javascript" src='js/date/temp_date_1.js'></script>
+<script type="text/javascript" src='js/date/temp_date_2.js'></script>
+<script type="text/javascript" src='js/common.js'></script>
+<script type="text/javascript" src='js/page/index.js'></script>

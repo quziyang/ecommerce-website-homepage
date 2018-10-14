@@ -1,0 +1,149 @@
+/***********************
+ * 日期：2018/04/24
+ * 作者：老尚
+ * 用途：购物车的css
+ * other: null
+ */
+
+ /* header头 */
+.cartTitle{
+	width:1190px;height:41px;margin:0 auto;
+	position: relative;
+}
+.cartTitle label{
+	color: #f00;font-size: 22px;font-weight: bold;
+	text-align: left;border-bottom: 3px solid #f00;
+	position: absolute;top: 8px;left: 0;
+}
+.cartTitle label p{
+	display: inline;margin-left: 7px;
+}
+
+/* cartHeader */
+.cartHeader{
+	width:1190px;height:51px;margin:0 auto;
+	background: #F3F3F3;border:1px solid #A6A6A6;
+	margin-bottom: 10px;
+}
+.cartHeader li{
+	float: left;height: 51px;line-height: 51px;
+}
+.cartHeader li.w_1{width: 146px;margin-left: 13px;}
+.cartHeader li.w_2{width: 582px;}
+.cartHeader li.w_3{width: 131px;}
+.cartHeader li.w_4{width: 101px;}
+.cartHeader li.w_5{width: 104px;}
+.allSelectStyle{
+	margin-right: 13px;
+}
+/* cartWrap */
+.cartWrap{
+	width:1190px;margin:0 auto;
+}
+/* productItem */
+.productItem{
+	width: 1190px;height: 141px;clear: both;background: #FFF4E8;
+	border:1px solid #E5E4E2;margin-bottom: 13px;padding-top: 20px;
+}
+
+.productItem li{
+	float: left;
+}
+.productItem li.w_1{
+	width: 16px;margin:0 13px 0 13px;
+}
+.productItem li.w_2{
+	width: 94px;height: 94px;
+	background: #fff;border:1px solid #666;
+	margin-right:22px;
+}
+.productItem li.w_3{
+	width: 556px;margin-right:13px;
+}
+.productItem li.w_4{
+	width: 100px;margin-right:13px;
+}
+.productItem li.w_5{
+	width: 110px;margin-right:13px;
+}
+.productItem li.w_6{
+	width: 109px;margin-right:13px;
+}
+
+/* goodsNums */
+.goodsNums{
+	width:94px;height: 24px;background: #fff;
+	border:1px solid #666;position: relative;margin:0 auto;
+	text-align: center;
+}
+.goodsNums input.minBtn,
+.goodsNums input.addBtn{
+	position: absolute;top: 0;
+	width:19px;height: 24px;background: #fff;
+	border: 0;cursor: pointer;
+}
+.goodsNums input.minBtn{
+	left: 0;
+}
+.goodsNums input.addBtn{
+	right: 0;
+}
+.goodsNums input.minBtn:hover,
+.goodsNums input.addBtn:hover{
+	background: #eee;color: #f00;
+}
+.goodsNums input.goodVals{
+	width:54px;height: 24px;background: #fff;
+	font-size: 14px;text-align: center;color: #666;
+	/* 这个border:0，是先把整个input四条边都设置为0 */
+	border: 0;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+/* cartFooter */
+.cartFooter{
+	width: 1190px;height: 60px;margin: 0 auto;
+	background: #fff;
+	border:1px solid #666;position: relative;
+}
+.cartFooter input.footerInputBtn{
+	float: left;margin:24px 11px 0 13px;
+}
+.cartFooter label{
+	float: left;margin-top: 22px;
+}
+
+input.goShopCarBtn{
+	float: right;width: 115px;height: 60px;
+	background: #f00;font-size: 22px;color: #fff;font-weight: bold;
+	text-align: center;border: 0;
+}
+
+/* selectGoodsNum */
+.selectGoodsNum{
+	position: absolute;top: 13px;right: 304px;
+	font-size: 14px;color: #666;
+}
+.selectGoodsNum i{
+	padding: 0 4px;font-size: 14px;font-weight: bold;color: #f00;
+}
+
+/* allMoney */
+.allMoney{
+	position: absolute;top: 13px;right: 166px;
+	font-size: 14px;color: #666;
+}
+.allMoney i{
+	padding: 0 4px;font-size: 14px;font-weight: bold;color: #f00;
+}
+
+/* saveMoney，已节省 */
+.saveMoney{
+	position: absolute;right: 174px;
+	bottom: 4px;
+	font-size: 14px;color: #666;
+}
+.saveMoney i{
+	padding: 0 4px;font-size: 14px;font-weight: bold;color: #666;
+}

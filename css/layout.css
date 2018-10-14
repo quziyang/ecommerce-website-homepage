@@ -1,0 +1,44 @@
+/***********************
+ * 日期：2018/04/19
+ * 作者：老尚
+ * 用途：全站-大的结构
+ * other: null
+ */
+/*
+	在咱们这个例子里，这样做不是特别的适合，
+	主要是为了讲解这种操作的思路。
+
+	全站的大的页面结构 的css的样式，统一放在一个css文件里。
+*/
+
+/* 网页头 */
+ .header{
+	width:1192px;height: 170px;background: #F6F6F6;margin: 0 auto;
+	position: relative;
+}
+
+/* 首页轮播图 */
+.menuWrap{
+	width:1192px;height: 480px;margin:0 auto;background: #ddd;
+}
+
+/* goodsListWrap */
+.goodsListWrap{
+	width: 1192px;margin: 0 auto;
+}
+.goodsListWrap:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* 产品详情页 */
+/*
+	可以继续写在这里，也可以不再往这里写，
+	这个css文件，就是给大家讲一下 layout.css 一般的使用思路。
+	然后，
+	我讲课呢，
+	就不再继续往layout.css文件里写东西了。
+ */

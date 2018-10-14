@@ -1,0 +1,32 @@
+/***********************
+ * 日期：2018/04/19
+ * 作者：老尚
+ * 用途：css的一些单独属性设置
+ * other: null
+ */
+ .fl{float: left;}
+ .fr{float: right;}
+ .cle{clear: both;}
+
+ .mt_5{margin-top: 5px;}
+ .mt_10{margin-top: 10px;}
+
+ .mr_10{margin-right: 10px;}
+
+ .pa{position: absolute;}
+ .pr{position: relative;}
+
+ .right_13-{right: -13px;}
+ .top_12-{top:-12px;}
+
+ .cle:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.noDis{
+	display: none;
+}

@@ -1,0 +1,173 @@
+/***********************
+ * 日期：2018/04/23
+ * 作者：老尚
+ * 用途：产品详情页
+ * other: null
+ */
+
+.productWrap{
+	width: 1300px;margin:0 auto;
+}
+.productLeft{
+	width:510px;height: 610px;float: left;
+}
+.productBigImg{
+	width: 495px;height: 495px;
+	float: left;border:1px solid #666;
+	position: relative;
+}
+.productBigImg img{width: 495px;height: 495px;}
+.productBigImg i{
+	display: block;width: 33px;height: 33px;position: absolute;bottom: -1px;right: 2px;
+	background: url('../../image/icons.png') no-repeat 0 -201px;
+}
+.productMask{
+	width:200px;height: 200px;background: #ceb414;
+	opacity: 0.5;position: absolute;left: 100px;top: 100px;
+	border:1px solid #000;display: block;cursor: move;
+}
+/* 产品详情页-大图局部显示 */
+.localBigImg{
+	width:495px!important;height: 495px;position: absolute;top: -1px;right: -495px;
+	overflow: hidden;border:1px solid #666;
+	display: none;
+}
+.localBigImg img{
+	width:1000px;height: 1000px;position: absolute;top: 0;left: 0;
+}
+
+/* smallImgList */
+.smallImgList{
+	width: 100%;height: 90px;clear: both;position: relative;
+}
+.smallImgList label,
+.smallImgList span{
+	position: absolute;display: block;
+	width: 22px;height: 37px;
+	top: 20px;
+	background-image: url('../../image/icons.png');
+	background-repeat: no-repeat;
+}
+.smallImgList label{
+	background-position: 0 -259px;
+	left: 0;
+}
+.smallImgList span{
+	background-position: 0 -295px;
+	right: 0;
+}
+.smallImgList ul{
+	display: block;position: absolute;top: 7px;left: 28px;
+}
+.smallImgList ul li{
+	float: left;width: 55px;height: 55px;margin-right: 10px;
+	border:1px solid #fff;
+}
+.smallImgList ul li:hover{
+	border:1px solid #f00;
+}
+.smallImgList ul li img{
+	width: 55px;height: 55px;
+}
+/* productRight */
+.productRight{
+	width: 780px;float: right;min-height: 500px;
+}
+.productTitle{
+	width: 100%;clear: both;
+}
+.productTitle h1{
+	font-size:22px;font-weight: bold;line-height: 35px;color: #666;
+}
+.productTitle p{
+	display: block;clear: both;margin:5px 0;
+	font-size:14px;line-height: 22px;color: #f00;
+}
+
+/* sendAddress，配送地址 */
+.sendAddress{
+	clear: both;width: 500px;
+}
+.sendAddressP{
+	width:60px;float: left;height: 24px;line-height: 24px;
+}
+.addressTitleBtn{
+	height: 24px;line-height: 24px;padding: 0 5px;
+	border:1px solid #666;float: left;clear: both;
+	border-bottom: 0;background: #fff;
+	position: relative;top: 1px;
+}
+.addressWrap{
+	width: 396px;float: left;
+}
+.addressMenu{
+	width: 376px;
+	float: left;clear: both;background: #fff;
+	border:1px solid #666;padding:25px 10px;
+	background: #fff;
+}
+.addressMenu ul.tabBtnUl{
+	clear: both;height: 24px;border-bottom: 2px solid #EDD28B;
+}
+.addressMenu ul.tabBtnUl li{
+	float: left;height: 24px;line-height: 24px;padding: 0 10px;
+	margin-right: 9px;border:1px solid #666;
+	font-size: 14px;font-weight: bold;text-align: center;
+	color: #005AA0;background: #fff;
+	cursor: pointer;
+}
+.addressMenu ul.tabBtnUl li.yellow{
+	border: 2px solid #EDD28B;
+	border-bottom:0;
+}
+
+/* 省、市、区 */
+.provinceWrap,
+.cityWrap,
+.areaWrap{
+	width: 100%;margin-top: 5px;
+}
+
+.provinceWrap li,
+.cityWrap li,
+.areaWrap li{
+	float: left;width: 90px;height: 24px;line-height: 24px;
+	font-size: 14px;color: #666;overflow: hidden;cursor: pointer;
+}
+.provinceWrap li:hover,
+.cityWrap li:hover,
+.areaWrap li:hover{
+	background: #eee;color: #000;
+}
+
+/* gotoPay */
+.gotoPay{
+	float: left;clear: both;margin: 20px 0 0 70px;
+}
+.gotoPayBtn{
+	float: left;position: relative;
+	width: 54px;height: 48px;
+	border: 1px solid #666;background: #fff;
+	margin-right: 11px;
+}
+.gotoPayBtn input.btn_a{
+	float: left;width: 37px;height: 48px;
+	font-size: 12px;text-align: center;font-weight: normal;
+	color: #000;border:0;
+}
+.gotoPayBtn input.btn_b,
+.gotoPayBtn input.btn_c{
+	position: absolute;right: -1px;
+	background: #F1F1F1;text-align: center;font-size: 12px;
+	border: 1px solid #666;
+	width: 16px;height: 26px;cursor: pointer;
+}
+.gotoPayBtn input.btn_b{top:-1px;}
+.gotoPayBtn input.btn_c{bottom: -1px;}
+
+.gotoShopCarBtn{
+	width: 157px;height: 48px;border: 0;
+	background: #f00;color: #fff;
+	font-size: 22px;font-weight: bold;
+	cursor: pointer;
+}

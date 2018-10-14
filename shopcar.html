@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页-购物车</title>
+		<meta charset='utf-8' />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/commons.css" />
+		<link rel="stylesheet" type="text/css" href="css/widget.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/page/cart.css" />
+	</head>
+	<body>
+		<br/><br/><br/>
+
+		<div class="cartTitle">
+			<label>全部商品<p>444</p></label>
+		</div>
+		<div class="cartHeader">
+			<ul>
+				<li class="w_1">
+					<input id="allSelectId_a" class="allSelectStyle" type='checkbox' />
+					<label for="allSelectId_a">全选</label>
+				</li>
+				<li class="w_2">商品</li>
+				<li class="w_3">单价</li>
+				<li class="w_4">数量</li>
+				<li class="w_5">小计</li>
+				<li>操作</li>
+			</ul>
+		</div>
+		<div class="cartWrap cle">
+			<div class="productItem">
+				<ul>
+					<li class='w_1'><input type='checkbox' /></li>
+					<li class='w_2'>产品图片</li>
+					<li class='w_3'>产品描述</li>
+					<li class='w_4'>￥79.00</li>
+					<li class='w_5'>
+						<div class="goodsNums">
+							<input class='minBtn' type="button" value='-' />
+							<input class='goodVals' type="text" value=1 />
+							<input class='addBtn' type="button" value='+' />
+						</div>
+					</li>
+					<li class='w_6'>￥79.00</li>
+					<li>删除</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- cart尾 -->
+		<div class="cartFooter">
+			<input id="allSelectId_b" class="footerInputBtn" type='checkbox' />
+			<label for="allSelectId_b">全选</label>
+
+			<div class="selectGoodsNum">已选择<i id="selectGoodsNumId">4</i>件商品</div>
+			<div class="allMoney">总价:<i>￥2354.20</i></div>
+			<div class="saveMoney">已节省:<i>￥215.20</i></div>
+
+			<input class="goShopCarBtn" type="button" value="去结算" />
+		</div>
+
+		<br/><br/><br/><br/><br/>
+	</body>
+</html>
